@@ -44,6 +44,11 @@ Durante el curso se trabajaron los siguientes temas:
 - [Mini proyecto 2: Gestor de tareas con diccionarios](./proyectos/gestor_tareas/)
 - [POO: Sistema de estudiantes (clases y objetos)](./proyectos/sistema_estudiantes/)
 
+### 💻 [Ejercicios](./proyectos/)
+- [Diagramas de Flujo](./proyectos/calculadora_basica/)
+- [Pseudocódigo](./proyectos/gestor_tareas/)
+- [Python](./proyectos/sistema_estudiantes/)
+
 ### 📂 [Otros recursos](./otros/)
 - [Enlaces útiles de referencia](./otros/enlaces_utiles.md)
 - [Glosario básico de programación](./otros/glosario.md)
