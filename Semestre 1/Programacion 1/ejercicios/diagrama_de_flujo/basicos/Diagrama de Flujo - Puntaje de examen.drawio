@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2024-03-19T18:03:39.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="4pyysm_rRNBO-x2pvZLD" version="24.0.4" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="601" dy="262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-0" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="354" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FE_asWp9Ikxtv7AvePRP-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="80" as="sourcePoint" />
+            <mxPoint x="414" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-2" value="Leer la cantidad de respuestas correctas" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="288" y="120" width="251" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="180" as="sourcePoint" />
+            <mxPoint x="413" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-4" value="Leer la cantidad de respuestas incorrectas" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="286.5" y="220" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="280" as="sourcePoint" />
+            <mxPoint x="413" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-6" value="Leer la cantidad de respuestas en blanco" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="288" y="320" width="252" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="380" as="sourcePoint" />
+            <mxPoint x="413" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-9" value="puntaje_obtenido= (4*respuestas_correctas + -1*respuestas_incorrectas + 0*respuestas en blanco)/puntaje_total" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="104.13" y="525" width="617.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-10" value="puntaje_total= [(respuestas_correctas) + (respuestas_incorrectas) + (respuestas_en_blanco)]*4" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="142.25" y="420" width="543.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="480" as="sourcePoint" />
+            <mxPoint x="413" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.66" y="585" as="sourcePoint" />
+            <mxPoint x="412.66" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-13" value="Mostrar Puntaje Obtenido" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="189" y="630" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="690" as="sourcePoint" />
+            <mxPoint x="413" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FE_asWp9Ikxtv7AvePRP-15" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="354" y="730" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
