@@ -58,10 +58,10 @@ else:
 with open('resultados_clima.json', 'w') as archivo:
     json.dump({
         "resultados": resultados,
-        "temperatura_promedio": promedio,
+        "temperatura_promedio": promedio, # type: ignore
         "descripcion_mas_frecuente": {
-            "descripcion": descripcion_mas_comun[0],
-            "ocurrencias": descripcion_mas_comun[1]
+            "descripcion": descripcion_mas_comun[0], # type: ignore
+            "ocurrencias": descripcion_mas_comun[1] # type: ignore
         }
     }, archivo, indent=4)
 
