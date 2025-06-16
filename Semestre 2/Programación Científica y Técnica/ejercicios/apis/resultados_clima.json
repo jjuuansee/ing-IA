@@ -1,0 +1,21 @@
+{
+    "resultados": [
+        {
+            "Minas": {
+                "descripcion": "broken clouds",
+                "temperatura": 5.77
+            }
+        },
+        {
+            "Montevideo": {
+                "descripcion": "broken clouds",
+                "temperatura": 7.55
+            }
+        }
+    ],
+    "temperatura_promedio": 6.66,
+    "descripcion_mas_frecuente": {
+        "descripcion": "broken clouds",
+        "ocurrencias": 2
+    }
+}
