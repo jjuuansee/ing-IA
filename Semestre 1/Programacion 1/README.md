@@ -32,17 +32,9 @@ Durante el curso se trabajaron los siguientes temas:
 
 ## 📁 Índice de contenidos
 
-### 📝 [Apuntes](./apuntes/)
-- [01 - Diagramas de flujo y pseudocódigo](./apuntes/01_diagramas_y_pseudocodigo.md)
-- [02 - Tipos de datos y variables](./apuntes/02_tipos_de_datos.md)
-- [03 - Condicionales y bucles](./apuntes/03_condicionales_y_bucles.md)
-- [04 - Listas y diccionarios](./apuntes/04_listas_y_diccionarios.md)
-- [05 - Introducción a POO](./apuntes/05_poo_basico.md)
-
 ### 💻 [Proyectos](./proyectos/)
-- [Mini proyecto 1: Calculadora básica](./proyectos/calculadora_basica/)
-- [Mini proyecto 2: Gestor de tareas con diccionarios](./proyectos/gestor_tareas/)
-- [POO: Sistema de estudiantes (clases y objetos)](./proyectos/sistema_estudiantes/)
+- [Mini proyecto 1](./proyectos/actividad_grupal_1/)
+- [Mini proyecto 2](./proyectos/actividad_grupal_2/)
 
 ### 💻 [Ejercicios](./ejercicios/)
 - [Diagramas de Flujo](./ejercicios/diagrama_de_flujo/)
